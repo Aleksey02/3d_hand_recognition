@@ -5968,6 +5968,7 @@ GameObject:
   - component: {fileID: 1899704147}
   - component: {fileID: 1899704146}
   - component: {fileID: 1899704148}
+  - component: {fileID: 1899704149}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -6041,6 +6042,26 @@ MonoBehaviour:
   - {fileID: 1700969704}
   - {fileID: 667349630}
   - {fileID: 685278739}
+--- !u!114 &1899704149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899704145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c827a9fe2ca0ad40adb1df451792eb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handTracking: {fileID: 1899704148}
+  cubes:
+  - {fileID: 288828299}
+  - {fileID: 1307700463}
+  - {fileID: 747838045}
+  - {fileID: 1540180890}
+  - {fileID: 767435918}
+  - {fileID: 1786863680}
 --- !u!1 &1949715738
 GameObject:
   m_ObjectHideFlags: 0
